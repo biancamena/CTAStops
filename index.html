@@ -1,37 +1,33 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <!-- Our CSS Files -->
-    <link href="styles/styles.css" media="screen" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="styles/jquery.mobile-1.4.3.css" />
-    
-    <!-- Our Script Files (Javascript and stuffs) -->
-    <script src="js/script.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.mobile-1.4.3.js"></script>
-    
-    <title>CTA Stops</title>
-  </head>
-  <body>
-    <!--This is our Homepage of the app-->
-    <div id="homepage" data-role="page">
-    
-      <!--This is our header/title for our app-->
-      <div data-role="header">
-        <h1>Home</h1>
-      </div>    
+ <head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+  
+      <title>CTA Stops</title>
       
-      <!--Our meat and potatoes-->
-      <div data-role="content">
-      
-        <!--Three sections available for users: train stations, bus stations, and transit map -->
-        <ul data-role="listview" data-inset="true">
-          <li class="list-item"> Train Stations</li>
-          <li class="list-item"> Bus Stations</li>
-          <li class="list-item"> Transit Map</li>  
-        </ul>
-      </div>
-    </div>
-  </body>
+<!-- Our CSS Files -->  
+  <link href="styles/styles.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="styles/jquery.mobile-1.4.3.css" rel="stylesheet" type="text/css"/>
+  
+<!-- Our Script Files (Javascript and stuffs) -->
+  <script src="js/script.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mobile-1.4.3.js"></script>  
+
+ </head>
+ <body>
+   <section id="home" data-role="page">
+     <header data-role="header">
+       <h1>Home</h1>
+     </header>
+     <!-- header-->
+     <div data-role="content">
+       <ul data-role="listview" data-inset="true">
+         <li><a href="Elstations.html">Train Stations</a></li>
+         <li><a href="busstations.html">Bus Stops</a></li>
+         <li><a href="ctamap.html">CTA Map</a></li>
+       </ul>
+     </div>
+   </section>
+ </body>
 </html>
